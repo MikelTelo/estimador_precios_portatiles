@@ -1,43 +1,39 @@
-# 📊 Aplicación de Concesión de Créditos
+# 💻 Predicción de Precios de Laptops
 
-## 🚀 Descripción del Proyecto
-Esta aplicación utiliza técnicas avanzadas de **Machine Learning** para evaluar el riesgo crediticio de los clientes y determinar la idoneidad para la concesión de préstamos. El modelo ha sido entrenado con un extenso conjunto de datos históricos, logrando una precisión del **95%** en la predicción de riesgo crediticio.
+## 📊 Descripción del Proyecto
 
----
-
-## 🛠️ Tecnologías Utilizadas
-- **Python**
-- **Scikit-learn**
-- **Pandas**
-- **NumPy**
-- **Matplotlib**
-
----
-
-## 📁 Estructura del Proyecto
-1. **Preprocesamiento de Datos:** Limpieza y normalización de datos del cliente.
-2. **Análisis Exploratorio:** Visualización de patrones y correlaciones en los datos.
-3. **Entrenamiento del Modelo:** Implementación de algoritmos de clasificación.
-4. **Evaluación del Modelo:** Métricas como precisión, recall y F1-score.
-5. **Interfaz de Usuario:** Sistema para ingresar datos del cliente y obtener evaluaciones de riesgo.
-
----
+Este proyecto se enfoca en desarrollar modelos de machine learning para predecir con precisión los precios de laptops basándose en sus características y especificaciones. En la era digital actual, donde los consumidores se enfrentan a una amplia gama de opciones, nuestro objetivo es crear una herramienta que ayude a estimar el valor de mercado de diferentes modelos de laptops.
 
 ## 🎯 Objetivo Principal
-Desarrollar un **sistema automatizado y preciso** para evaluar el riesgo crediticio y apoyar la toma de decisiones en la concesión de préstamos.
 
----
+Construir modelos predictivos eficientes que puedan generalizar y prever con precisión los precios de laptops desconocidas, identificando patrones sutiles que impacten significativamente en los precios.
 
-## 📦 Resultados Clave
-- **Precisión del Modelo:** 95%
-- **Tiempo de Procesamiento:** <2 segundos por solicitud
-- **Reducción de Riesgo:** Disminución del 30% en préstamos impagos
+## 🛠️ Tecnologías Utilizadas
 
----
+- Python
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib/Seaborn
 
-## 📌 Uso del Proyecto
-1. **Clonar el repositorio**
-2. **Instalar dependencias**
-3. **Usar el notebook: estimador_prestamos_bancarios.ipynb**
+## 📁 Estructura del Proyecto
 
-¡Explora el código, ajusta parámetros y mejora la precisión del modelo! 💼💰
+1. **Preprocesamiento de Datos:** Limpieza y preparación del conjunto de datos.
+2. **Análisis Exploratorio:** Visualización de patrones y relaciones en los datos.
+3. **Ingeniería de Características:** Creación de nuevas características relevantes.
+4. **Entrenamiento del Modelo:** Implementación de algoritmos de regresión.
+5. **Evaluación del Modelo:** Uso del Error Absoluto Medio (MAE) como métrica principal.
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+1. Clonar el repositorio
+2. Instalar las dependencias
+3. Ejecutar el notebook principal: `laptop_price_predictions.ipynb`
+
+## 📊 Evaluación
+
+El rendimiento de los modelos se evalúa utilizando el Error Absoluto Medio (MAE). Cuanto menor sea el MAE, mejor será el desempeño del modelo.
+
+## 👥 Contribuciones
+
+Las contribuciones son bienvenidas. Por favor, abre un issue o realiza un pull request para sugerir cambios o mejoras.
